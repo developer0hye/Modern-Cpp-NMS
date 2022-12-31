@@ -1,2 +1,3 @@
-# NMS-Implemented-Stupidly-in-Modern-Cpp
+# Modern-Cpp-NMS
+
 A Modern C++ implementation of NMS with low readability
