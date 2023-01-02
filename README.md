@@ -1,6 +1,6 @@
 # Modern-Cpp-NMS
 
-A Modern C++ implementation of Non-maximum Suppression(NMS) with low readability
+A Modern C++ implementation of Non-maximum Suppression(NMS) **with low readability**
 
 # References
 
