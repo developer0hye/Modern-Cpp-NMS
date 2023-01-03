@@ -10,13 +10,13 @@ A Modern C++ implementation of Non-maximum Suppression(NMS) for Object Detection
 
 41 Boxes
 
-![img_with_boxes](./img_with_boxes.jpg)
+<img src = "./img_with_boxes.jpg" width="25%" height="25%">
 
 ## With NMS
 
 4 Boxes
 
-![img_with_boxes](./img_with_boxes_nms.jpg)
+<img src = "./img_with_boxes_nms.jpg" width="25%" height="25%">
 
 # References
 
