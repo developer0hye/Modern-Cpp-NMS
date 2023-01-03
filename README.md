@@ -2,7 +2,7 @@
 
 A Modern C++ implementation of Non-maximum Suppression(NMS) for Object Detection Algorithms
 
-***Python is used for visualization of bounding boxes to check the result of this implementation.***
+***Python is used for visualization.***
 
 # Results
 
