@@ -1,6 +1,6 @@
 # Modern-Cpp-NMS
 
-A Modern C++ implementation of Non-maximum Suppression(NMS) for Object Detection Algorithms **with Low Readability**
+A Modern C++ implementation of Non-maximum Suppression(NMS) for Object Detection Algorithms
 
 ***Python is used for easy visualization of bounding boxes to check the result of this implementation.***
 
