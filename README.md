@@ -21,3 +21,5 @@ A Modern C++ implementation of Non-maximum Suppression(NMS) for Object Detection
 # References
 
 [Erase–remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
+
+[YOLOv5](https://github.com/ultralytics/yolov5)
