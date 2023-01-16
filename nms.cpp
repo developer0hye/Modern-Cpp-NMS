@@ -26,7 +26,7 @@ void nms(std::vector<std::vector<float>>& boxes, const float iou_threshold)
     std::sort(boxes.begin(), boxes.end(), [](const std::vector<float>& boxA, const std::vector<float>& boxB) { return boxA[4] + boxA[5] > boxB[4] + boxB[5];});
     for (int i = 0; i < boxes.size(); ++i)
     {
-        if (boxes[i][4] == 0)
+        if (boxes[i][4] == 0.f)
         {
             continue;
         }
@@ -38,9 +38,9 @@ void nms(std::vector<std::vector<float>>& boxes, const float iou_threshold)
             }
             if (iou(boxes[i], boxes[j]) > iou_threshold)
             {
-                boxes[j][4] = 0;
+                boxes[j][4] = 0.f;
             }
         }
     }
-    std::erase_if(boxes, [](const std::vector<float>& box) { return box[4] == 0; });
+    std::erase_if(boxes, [](const std::vector<float>& box) { return box[4] == 0.f; });
 }
