@@ -42,5 +42,5 @@ void nms(std::vector<std::vector<float>>& boxes, const float iou_threshold)
             }
         }
     }
-    boxes.erase(std::remove_if(boxes.begin(), boxes.end(), [](const std::vector<float>& box) { return box[4] == 0; }), boxes.end());
+    std::erase_if(boxes, [](const std::vector<float>& box) { return box[4] == 0; });
 }
