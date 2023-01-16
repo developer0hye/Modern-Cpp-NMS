@@ -5,7 +5,7 @@ float iou(const std::vector<float>& boxA, const std::vector<float>& boxB)
 {
     // The format of box is [top_left_x, top_left_y, bottom_right_x, bottom_right_y]
     const float eps = 1e-6;
-    float iou = 0.;
+    float iou = 0.f;
     float areaA = (boxA[2] - boxA[0]) * (boxA[3] - boxA[1]);
     float areaB = (boxB[2] - boxB[0]) * (boxB[3] - boxB[1]);
     float x1 = std::max(boxA[0], boxB[0]);
